@@ -1,9 +1,8 @@
 ---
 layout: layouts/home.njk
-eleventyNavigation:
-  key: Home
-  order: 1
 ---
+
+<!--
 {% set maxPosts = collections.posts.length | min(3) %}
 <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 
@@ -12,3 +11,13 @@ eleventyNavigation:
 {% include "postslist.njk" %}
 
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+
+-->
+
+<ul id="socials">
+  <li><a href="https://twitter.com/j2rgb">twitter</a></li>
+  <li><a href="https://instagram.com/j2rgb">instagram</a></li>
+  <li><a href="https://github.com/jshrake">github</a></li>
+  <li><a href="https://shadertoy.com/user/j2rgb">shadertoy</a></li>
+  <li><a href="http://hicetnunc.xyz/j2rgb/creations">hicetnunc</a></li>
+</ul>
