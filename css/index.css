@@ -35,7 +35,7 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--blue);
+  color: var(--yellow);
 }
 a[href]:visited {
   color: var(--yellow);
@@ -255,6 +255,6 @@ a[href].direct-link:focus:visited,
   color: var(--yellow);
 }
 
-#socials a[href]:visited {
+#socials a[href] {
   color: var(--white);
 }
